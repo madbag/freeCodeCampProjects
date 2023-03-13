@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+}
+
+body {
+  font-family: inter;
+  line-height: 1.5;
+  background-color: #abc7ff;
+  width: 500px;
+  margin: auto;
+  }
+
+form {
+  background: rgb(255,255,255);
+  padding: 2.5rem 2.5rem;
+  border-radius: 2.5rem;
+  width: 500px;
+  margin: auto;
+}
+
+.input-headings {
+  margin: 0 auto 2.5rem auto;
+  padding: 0.25rem;
+  }
+
+.form-input {
+  display: block; 
+  width: 90%;
+  height: 2rem;
+  padding: 0.25rem 0.75rem;
+  background-color: #ffff;
+  border: 1px solid; 
+  border-radius: 0.25rem;
+}
+

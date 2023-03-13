@@ -1,0 +1,84 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
+
+<header>
+<h1 id="title">
+  Signal Survey Form
+</h1>
+  </header>
+  
+<p id="description">
+ Thank you for taking the time to help us improve the app
+  </p>
+    
+ <body>
+<form id="survey-form">
+  
+<div class="input-headings">
+<label for="name" id="name-label">Name:
+</label>
+<input id="name" type="text" name="name" placeholder="John Doe" class="form-input" required> 
+</input>
+<br>
+
+<label for="email" id="email-label"> Email: 
+</label>
+<input id="email" type="email" name="email" placeholder="abc@gmail.com" class="form-input" required> 
+</input>
+<br>
+
+<label for="number" id="number-label">Age: 
+</label>
+<input id="number" type="number" name="number" placeholder="18" min="18" max="100" class="form-input" required> 
+</input>
+<br>
+
+<label for="dropdown" id="feature" > What is your favourite feature of Signal?</label>
+
+<select id="dropdown" class="form-input">
+  <option disabled selected value>Select one option</option>
+  <option value="a">Reaction on messages </option>
+  <option value="b">Privacy</option>
+  <option value="c">No status updates </option>
+  <option value="d">Rich media sharing options</option>
+</select>
+<br>
+<p>
+  What would you like to see improved?
+</p>
+
+<input id="checkbox" type="checkbox" id="Desktop_App" name="checkbox" value="Desktop_App">
+<label for="checkbox"> Desktop application </label>
+<br>
+<input id="checkbox" type="checkbox" id="mobileapp_layout" name="checkbox" value="mobileapp_layout">
+<label for="checkbox"> Mobile application layout </label>
+<br>
+<input id="checkbox" type="checkbox" id="Chat_search_option" name="checkbox" value="Chat_search_option">
+<label for="checkbox"> Chat search option</label>
+<br> 
+<br>
+<label id="textarea"> Additional Comments: </label>
+<br>
+<textarea id="textarea" name"instruction" rows"5"
+          cols"40">
+</textarea>
+<br>
+
+ <p>
+ Would you like to suggest Signal to your friends?  
+</p>
+
+<input id="user_recommendation" type="radio" id="definately" name="user_recommendation" value="definately">
+<label for="user_recommendation"> Definately </label>
+<br>
+<input id="user_recommendation" type="radio" id="maybe" name="user_recommendation" value="maybe">
+<label for="user_recommendation"> Maybe </label>
+<br>
+<input id="user_recommendation" type="radio" id="not_sure" name="user_recommendation" value="not_sure">
+<label for="user_recommendation"> Not sure</label>
+<br>
+<br>
+<button id="submit"> Submit </button>
+  </div>
+
+</form>
+</body>
